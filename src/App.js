@@ -109,9 +109,9 @@ const App = () => {
       </div>
       <Thumbnails active={images[index]} images={images} />
       <div className="actions">
-        <Button onClick={() => prevBtn()}>Prev</Button>
-        <Button onClick={() => playBtn()}>Play</Button>
-        <Button onClick={() => nextBtn()}>Next</Button>
+        <Button onClick={prevBtn}>Prev</Button>
+        <Button onClick={playBtn}>Play</Button>
+        <Button onClick={nextBtn}>Next</Button>
       </div>
     </div>
   );
